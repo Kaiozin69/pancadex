@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redefinir Senha</title>
+  <link rel="stylesheet" href="teste.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Atualizar senha, email ou número de telefone</h1>
+    <p>Como você prefere redefinir sua senha?</p>
+    <form>
+      <div class="input-group">
+        <input type="radio" id="email" name="redefinir" value="email" checked>
+        <label for="email">Email</label>
+      </div>
+      <div class="input-group">
+        <input type="radio" id="sms" name="redefinir" value="sms">
+        <label for="sms">Mensagem de texto</label>
+      </div>
+      <p>Enviaremos um email com instruções de como redefinir sua senha.</p>
+      <input type="email" placeholder="nome@exemplo.com" required>
+      <button type="submit">Enviar por email</button>
+      <button type="button" class="voltar">Voltar</button>
+    </form>
+  </div>
+</body>
+</html>
