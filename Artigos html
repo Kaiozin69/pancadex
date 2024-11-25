@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artigos Sobre Taxa de Morte em Acidentes</title>
+    <link rel="stylesheet" href="pancadex.css">
+</head>
+<body>
+    <div class="container">
+        <button class="back-button">Voltar</button>
+        <h1>Artigos Sobre Taxa de Morte em Acidentes</h1>
+        <h2 class="list-title">Lista de Artigos</h2>
+        <div class="text-box">
+            <ul>
+                <li>
+                    <span class="highlight">Taxa de mortalidade no trânsito brasileiro aumentou 2,3% em agosto de 2023</span><br>
+                    O Ipea (Instituto de Pesquisa Econômica Aplicada) divulgou que a taxa de mortalidade no trânsito brasileiro aumentou 2,3% em agosto de 2023, com mais de 390 mil óbitos em acidentes com meios de transporte terrestres.
+                </li>
+                <li>
+                    <span class="highlight">Brasil é o 3º país que mais registra mortes no trânsito</span><br>
+                    De acordo com a Organização Mundial da Saúde (OMS), o Brasil é o terceiro país do mundo com mais mortes em acidentes de trânsito, atrás apenas da Índia e da China.
+                </li>
+                <li>
+                    <span class="highlight">Mortalidade por acidentes de trânsito, antes e após redução</span><br>
+                    Este artigo discute a diminuição dos óbitos relacionados aos acidentes de trânsito em indivíduos acima de 20 anos.
+                </li>
+                <li>
+                    <span class="highlight">Quem é a população mais exposta ao risco de sinistros fatais no trânsito?</span><br>
+                    Este artigo da OPAS/OMS (Pan American Health Organization) discute que os homens são mais propensos a se envolverem em acidentes de trânsito do que as mulheres.
+                </li>
+                <li>
+                    <span class="highlight">Algumas das principais causas de acidentes de trânsito são o excesso de velocidade e a embriaguez.</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
+****
