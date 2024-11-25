@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    max-width: 400px;
+    background: #fff;
+    border-radius: 25px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: justify; /* Justifica o título */
+}
+
+p {
+    font-size: 0.9rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.options {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.options label {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.options input {
+    margin-right: 10px;
+}
+
+.input-field {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centraliza horizontalmente */
+    border: 1px solid #ccc; /* Borda unificada para os campos */
+    border-radius: 15px; /* Arredonda os cantos da caixa inteira */
+    overflow: hidden; /* Evita bordas salientes */
+}
+
+.country-code select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ffffff;
+    border-radius: 15px 0 0 15px;
+    outline: none;
+    background-color: #ffffff;
+}
+
+.input-field input {
+    width: 75%;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    color: #e4dddd;
+    outline: none;
+}
+
+.input-field input:focus, .country-code select:focus {
+    border-color: #ffa500;
+    box-shadow: 0 0 5px rgba(255, 165, 0, 0.5);
+}
+
+.btn {
+    width: 100%;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+    font-size: 1rem;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #e59400;
+}
+
+.back-link {
+    display: block;
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #333;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
