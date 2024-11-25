@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atualizar Senha</title>
+    <link rel="stylesheet" href="pancadex.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Atualizar senha, email ou número de telefone</h1>
+        <div class="options">
+            <label>
+                <input type="radio" name="option" value="email"> Email
+            </label>
+            <label>
+                <input type="radio" name="option" value="sms" checked> Mensagem de texto
+            </label>
+        </div>
+        <p>Enviaremos uma mensagem de texto com um código de redefinição da sua senha. Sujeito a tarifas sobre o uso de dados e mensagens.</p>
+        <div class="input-field">
+            <div class="country-code">
+                <select>
+                    <option value="br" selected>🇧🇷 +55</option>
+                    <option value="us">🇺🇸 +1</option>
+                    <option value="uk">🇬🇧 +44</option>
+                    <!-- Adicione mais opções conforme necessário -->
+                </select>
+            </div>
+            <input type="tel" placeholder="Digite seu número" required>
+        </div>
+        <button class="btn">Enviar por código</button>
+        <a href="#" class="back-link">Voltar</a>
+    </div>
+</body>
+</html>
