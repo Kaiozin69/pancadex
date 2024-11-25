@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Acidente</title>
+    <link rel="stylesheet" href="pancadex.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Cadastro do Nível/Local do Acidente</h1>
+            <button class="back-button">Voltar</button>
+        </header>
+        <form class="accident-form">
+            <section class="collision-level">
+                <h2>Nível de Colisão</h2>
+                <div class="radio-group">
+                    <label><input type="radio" name="collision" value="high"> Nível Alto</label>
+                    <label><input type="radio" name="collision" value="medium"> Nível Médio</label>
+                    <label><input type="radio" name="collision" value="low"> Nível Baixo</label>
+                </div>
+            </section>
+
+            <section class="location-details">
+                <h2>Local do Acidente</h2>
+                <div class="form-row">
+                    <div class="form-group cep-group">
+                        <label for="cep">CEP</label>
+                        <div class="input-group">
+                            <input type="text" id="cep" name="cep" placeholder="Digite o CEP">
+                            <button type="button" id="search-cep">🔍</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="street">Avenida/Rua</label>
+                        <input type="text" id="street" name="street" placeholder="Ex.: Rua A">
+                    </div>
+                    <div class="form-group">
+                        <label for="number">Número</label>
+                        <input type="text" id="number" name="number" placeholder="Ex.: 123">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="complement">Complemento</label>
+                        <input type="text" id="complement" name="complement" placeholder="Ex.: Apt 101">
+                    </div>
+                    <div class="form-group">
+                        <label for="neighborhood">Bairro</label>
+                        <input type="text" id="neighborhood" name="neighborhood" placeholder="Ex.: Centro">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="state">Estado</label>
+                        <select id="state" name="state">
+                            <option value="">Selecione</option>
+                            <option value="SE">Sergipe</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="city">Cidade</label>
+                        <input type="text" id="city" name="city" placeholder="Ex.: Aracaju">
+                    </div>
+                </div>
+            </section>
+
+            <section class="date-time">
+                <h2>Data/Hora do Acidente</h2>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="date">Data</label>
+                        <input type="date" id="date" name="date">
+                    </div>
+                    <div class="form-group">
+                        <label for="time">Hora</label>
+                        <input type="time" id="time" name="time">
+                    </div>
+                </div>
+            </section>
+
+            <section class="map-section">
+                <h2>Mapa</h2>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31693.285618705123!2d-37.08519262705529!3d-10.947246132589997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71687b0024b5593%3A0x2511a8766eb79576!2sAracaju%2C%20SE%2C%20Brasil!5e0!3m2!1sen!2sus!4v1637581684935!5m2!1sen!2sus"
+                    width="100%" height="250" allowfullscreen="" loading="lazy"></iframe>
+            </section>
+
+            <button type="submit" class="submit-button">Cadastrar Acidente</button>
+        </form>
+    </div>
+    <script src="pancadex.js"></script>
+</body>
+</html>
